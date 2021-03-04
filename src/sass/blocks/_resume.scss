@@ -34,7 +34,7 @@
                     position: absolute;
                     top: -30px;
                     left: -32px;
-                    background-color: $white-color;
+                    background-color: #000;
                 }
             }
         }
@@ -48,7 +48,7 @@
             width: 75px;
             position: absolute;
             top: 68px;
-            background-color: $white-color;
+            background-color: #000;
         }
         &-head {
             position: relative;
@@ -76,12 +76,12 @@
             font-size: 12px;
             line-height: 18px;
             margin-top: 5px;
-            color: $white-color;
+            
         }
         &-body {
             font-size: 12px;
             line-height: 18px;
-            color: $white-color;
+            
         }
     }
 }

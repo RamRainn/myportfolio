@@ -8,14 +8,18 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: $black-color;
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
 }
 
 .container{
     width: 1140px;
     margin: 0 auto;
 }
+
 .devider{
     width: 60px;
     height: 3px;
@@ -34,3 +38,4 @@ body{
 @import 'blocks/skills';
 @import 'blocks/portfolio';
 @import 'blocks/contacts';
+@import 'blocks/media';

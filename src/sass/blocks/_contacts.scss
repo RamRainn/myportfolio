@@ -12,6 +12,13 @@
             margin: 0;
         }
     }
+    &__photo{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
     &__title {
         position: relative;
         padding: 1px 0 0 12px;
@@ -19,6 +26,14 @@
     }
     &__text, &__social{
         margin-top: 20px;
+    }
+    &__social{
+        svg{
+            width: 25px;
+            height: 25px;
+           
+        }
+     
     }
     &__link{
         margin-right: 25px;
@@ -42,6 +57,22 @@
             padding: 0 8px;
             background-color: #fff;
             font-size: 12px;
+        }
+    }
+    &__triggers{
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 35px;
+        align-items: center;
+        
+    }
+    &__policy{
+        font-size: 12px;
+        line-height: 14px;
+        
+        input{
+            margin-right: 10px;
         }
     }
     &__input{
