@@ -13,14 +13,10 @@ hamburger.addEventListener('click', () =>{
 closeElem.addEventListener('click', () =>{
     menu.classList.remove('active');
     document.body.style.overflow = '';
+
+    
 });
 
-menu.addEventListener('click', (e) => {
-    if (e.target === menu) {
-        menu.classList.remove('active');
-        document.body.style.overflow = '';
-    }
-});
 
 
 // Скилы 
