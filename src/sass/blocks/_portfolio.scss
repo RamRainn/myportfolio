@@ -26,6 +26,7 @@
             object-fit: cover;
         }
         &:hover{
+            filter: grayscale(80%);
             transform: scale(1.05);
         }
     }
